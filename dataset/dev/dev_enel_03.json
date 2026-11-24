@@ -1,0 +1,22 @@
+{
+  "id": "dev_enel_03",
+  "arquivo": "dev_enel_03.jpg",
+  "empresa": "Enel Distribuição",
+  "endereco": {
+    "logradouro": "Rua Doutor Deodato Wertheimer",
+    "numero": "1540",
+    "complemento": "",
+    "bairro": "Centro",
+    "cidade": "Mogi das Cruzes",
+    "uf": "SP",
+    "cep": "08710-430"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -2.42,
+    "sombra_intensidade": 0.17,
+    "direcao_luz": "topo_base",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1716x1282"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "dev_claro_04",
+  "arquivo": "dev_claro_04.jpg",
+  "empresa": "Claro Telecomunicações",
+  "endereco": {
+    "logradouro": "Avenida Kennedy",
+    "numero": "920",
+    "complemento": "Torre 1",
+    "bairro": "Jardim do Mar",
+    "cidade": "São Bernardo do Campo",
+    "uf": "SP",
+    "cep": "09726-253"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -6.42,
+    "sombra_intensidade": 0.3,
+    "direcao_luz": "diagonal",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1692x1274"
+  }
+}

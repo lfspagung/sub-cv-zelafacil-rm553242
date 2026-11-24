@@ -1,0 +1,22 @@
+{
+  "id": "test_claro_02",
+  "arquivo": "test_claro_02.jpg",
+  "empresa": "Claro Telecomunicações",
+  "endereco": {
+    "logradouro": "Rua Haddock Lobo",
+    "numero": "595",
+    "complemento": "Conj 41",
+    "bairro": "Cerqueira César",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "01414-001"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -5.33,
+    "sombra_intensidade": 0.21,
+    "direcao_luz": "diagonal",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1836x1398"
+  }
+}

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "test_enel_01",
+    "arquivo": "test_enel_01.jpg",
+    "empresa": "Enel Distribuição",
+    "endereco": {
+      "logradouro": "Rua Benjamin Constant",
+      "numero": "845",
+      "complemento": "Apto 21",
+      "bairro": "Centro",
+      "cidade": "Suzano",
+      "uf": "SP",
+      "cep": "08674-010"
+    },
+    "condicoes_captura": {
+      "angulo_graus": 1.31,
+      "sombra_intensidade": 0.28,
+      "direcao_luz": "dir_esq",
+      "blur_leve": false,
+      "modo_dificil": false,
+      "resolucao": "1730x1446"
+    }
+  },
+  {
+    "id": "test_enel_02",
+    "arquivo": "test_enel_02.jpg",
+    "empresa": "Enel Distribuição",
+    "endereco": {
+      "logradouro": "Avenida Armando Sales de Oliveira",
+      "numero": "1670",
+      "complemento": "",
+      "bairro": "Parque Suzano",
+      "cidade": "Suzano",
+      "uf": "SP",
+      "cep": "08673-000"
+    },
+    "condicoes_captura": {
+      "angulo_graus": 3.6,
+      "sombra_intensidade": 0.29,
+      "direcao_luz": "topo_base",
+      "blur_leve": false,
+      "modo_dificil": false,
+      "resolucao": "1654x1308"
+    }
+  },
+  {
+    "id": "test_enel_03",
+    "arquivo": "test_enel_03.jpg",
+    "empresa": "Enel Distribuição",
+    "endereco": {
+      "logradouro": "Rua José Bonifácio",
+      "numero": "512",
+      "complemento": "Casa 3",
+      "bairro": "Centro",
+      "cidade": "Mogi das Cruzes",
+      "uf": "SP",
+      "cep": "08710-070"
+    },
+    "condicoes_captura": {
+      "angulo_graus": -2.86,
+      "sombra_intensidade": 0.3,
+      "direcao_luz": "esq_dir",
+      "blur_leve": false,
+      "modo_dificil": false,
+      "resolucao": "1696x1328"
+    }
+  },
+  {
+    "id": "test_enel_04",
+    "arquivo": "test_enel_04.jpg",
+    "empresa": "Enel Distribuição",
+    "endereco": {
+      "logradouro": "Avenida Vital Brasil",
+      "numero": "930",
+      "complemento": "Apto 64",
+      "bairro": "Butantã",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "cep": "05503-001"
+    },
+    "condicoes_captura": {
+      "angulo_graus": 3.73,
+      "sombra_intensidade": 0.19,
+      "direcao_luz": "topo_base",
+      "blur_leve": false,
+      "modo_dificil": false,
+      "resolucao": "1800x1330"
+    }
+  },
+  {
+    "id": "test_enel_05",
+    "arquivo": "test_enel_05.jpg",
+    "empresa": "Enel Distribuição",
+    "endereco": {
+      "logradouro": "Rua Coronel Cardoso de Siqueira",
+      "numero": "1185",
+      "complemento": "",
+      "bairro": "Vila Oliveira",
+      "cidade": "Mogi das Cruzes",
+      "uf": "SP",
+      "cep": "08780-000"
+    },
+    "condicoes_captura": {
+      "angulo_graus": 6.39,
+      "sombra_intensidade": 0.4,
+      "direcao_luz": "dir_esq",
+      "blur_leve": true,
+      "modo_dificil": true,
+      "resolucao": "1658x1346"
+    }
+  },
+  {
+    "id": "test_sabesp_01",
+    "arquivo": "test_sabesp_01.jpg",
+    "empresa": "Sabesp Saneamento",
+    "endereco": {
+      "logradouro": "Rua Coronel Oliveira Lima",
+      "numero": "478",
+      "complemento": "Apto 15",
+      "bairro": "Centro",
+      "cidade": "Santo André",
+      "uf": "SP",
+      "cep": "09010-000"
+    },
+    "condicoes_captura": {
+      "angulo_graus": -3.23,
+      "sombra_intensidade": 0.28,
+      "direcao_luz": "diagonal",
+      "blur_leve": false,
+      "modo_dificil": false,
+      "resolucao": "1798x1238"
+    }
+  },
+  {
+    "id": "test_sabesp_02",
+    "arquivo": "test_sabesp_02.jpg",
+    "empresa": "Sabesp Saneamento",
+    "endereco": {
+      "logradouro": "Avenida Goiás",
+      "numero": "1950",
+      "complemento": "",
+      "bairro": "Barcelona",
+      "cidade": "São Caetano do Sul",
+      "uf": "SP",
+      "cep": "09550-050"
+    },
+    "condicoes_captura": {
+      "angulo_graus": 4.26,
+      "sombra_intensidade": 0.21,
+      "direcao_luz": "esq_dir",
+      "blur_leve": false,
+      "modo_dificil": false,
+      "resolucao": "1758x1416"
+    }
+  },
+  {
+    "id": "test_sabesp_03",
+    "arquivo": "test_sabesp_03.jpg",
+    "empresa": "Sabesp Saneamento",
+    "endereco": {
+      "logradouro": "Rua Domingos de Morais",
+      "numero": "1420",
+      "complemento": "Bloco A",
+      "bairro": "Vila Mariana",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "cep": "04010-200"
+    },
+    "condicoes_captura": {
+      "angulo_graus": -6.25,
+      "sombra_intensidade": 0.18,
+      "direcao_luz": "esq_dir",
+      "blur_leve": false,
+      "modo_dificil": false,
+      "resolucao": "1880x1356"
+    }
+  },
+  {
+    "id": "test_sabesp_04",
+    "arquivo": "test_sabesp_04.jpg",
+    "empresa": "Sabesp Saneamento",
+    "endereco": {
+      "logradouro": "Avenida Salgado Filho",
+      "numero": "625",
+      "complemento": "Casa 4",
+      "bairro": "Maia",
+      "cidade": "Guarulhos",
+      "uf": "SP",
+      "cep": "07115-000"
+    },
+    "condicoes_captura": {
+      "angulo_graus": 4.67,
+      "sombra_intensidade": 0.28,
+      "direcao_luz": "diagonal",
+      "blur_leve": false,
+      "modo_dificil": false,
+      "resolucao": "1674x1422"
+    }
+  },
+  {
+    "id": "test_sabesp_05",
+    "arquivo": "test_sabesp_05.jpg",
+    "empresa": "Sabesp Saneamento",
+    "endereco": {
+      "logradouro": "Rua Padre João",
+      "numero": "290",
+      "complemento": "",
+      "bairro": "Penha",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "cep": "03637-000"
+    },
+    "condicoes_captura": {
+      "angulo_graus": -6.45,
+      "sombra_intensidade": 0.53,
+      "direcao_luz": "diagonal",
+      "blur_leve": false,
+      "modo_dificil": true,
+      "resolucao": "1708x1396"
+    }
+  },
+  {
+    "id": "test_claro_01",
+    "arquivo": "test_claro_01.jpg",
+    "empresa": "Claro Telecomunicações",
+    "endereco": {
+      "logradouro": "Avenida Brigadeiro Luís Antônio",
+      "numero": "2750",
+      "complemento": "Apto 92",
+      "bairro": "Jardim Paulista",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "cep": "01402-000"
+    },
+    "condicoes_captura": {
+      "angulo_graus": 2.6,
+      "sombra_intensidade": 0.17,
+      "direcao_luz": "diagonal",
+      "blur_leve": false,
+      "modo_dificil": false,
+      "resolucao": "1686x1432"
+    }
+  },
+  {
+    "id": "test_claro_02",
+    "arquivo": "test_claro_02.jpg",
+    "empresa": "Claro Telecomunicações",
+    "endereco": {
+      "logradouro": "Rua Haddock Lobo",
+      "numero": "595",
+      "complemento": "Conj 41",
+      "bairro": "Cerqueira César",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "cep": "01414-001"
+    },
+    "condicoes_captura": {
+      "angulo_graus": -5.33,
+      "sombra_intensidade": 0.21,
+      "direcao_luz": "diagonal",
+      "blur_leve": false,
+      "modo_dificil": false,
+      "resolucao": "1836x1398"
+    }
+  },
+  {
+    "id": "test_claro_03",
+    "arquivo": "test_claro_03.jpg",
+    "empresa": "Claro Telecomunicações",
+    "endereco": {
+      "logradouro": "Avenida Ana Costa",
+      "numero": "460",
+      "complemento": "",
+      "bairro": "Gonzaga",
+      "cidade": "Santos",
+      "uf": "SP",
+      "cep": "11060-002"
+    },
+    "condicoes_captura": {
+      "angulo_graus": -1.99,
+      "sombra_intensidade": 0.23,
+      "direcao_luz": "topo_base",
+      "blur_leve": false,
+      "modo_dificil": false,
+      "resolucao": "1748x1292"
+    }
+  },
+  {
+    "id": "test_claro_04",
+    "arquivo": "test_claro_04.jpg",
+    "empresa": "Claro Telecomunicações",
+    "endereco": {
+      "logradouro": "Rua Marechal Deodoro",
+      "numero": "1340",
+      "complemento": "Apto 53",
+      "bairro": "Centro",
+      "cidade": "São Bernardo do Campo",
+      "uf": "SP",
+      "cep": "09710-002"
+    },
+    "condicoes_captura": {
+      "angulo_graus": -2.31,
+      "sombra_intensidade": 0.33,
+      "direcao_luz": "dir_esq",
+      "blur_leve": false,
+      "modo_dificil": false,
+      "resolucao": "1828x1224"
+    }
+  },
+  {
+    "id": "test_claro_05",
+    "arquivo": "test_claro_05.jpg",
+    "empresa": "Claro Telecomunicações",
+    "endereco": {
+      "logradouro": "Avenida Doutor Moraes Salles",
+      "numero": "810",
+      "complemento": "",
+      "bairro": "Centro",
+      "cidade": "Campinas",
+      "uf": "SP",
+      "cep": "13010-001"
+    },
+    "condicoes_captura": {
+      "angulo_graus": -7.58,
+      "sombra_intensidade": 0.39,
+      "direcao_luz": "topo_base",
+      "blur_leve": true,
+      "modo_dificil": true,
+      "resolucao": "1682x1324"
+    }
+  }
+]

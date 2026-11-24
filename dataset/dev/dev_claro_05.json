@@ -1,0 +1,22 @@
+{
+  "id": "dev_claro_05",
+  "arquivo": "dev_claro_05.jpg",
+  "empresa": "Claro Telecomunicações",
+  "endereco": {
+    "logradouro": "Rua Tiradentes",
+    "numero": "530",
+    "complemento": "Casa 1",
+    "bairro": "Vila Itapura",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "cep": "13023-190"
+  },
+  "condicoes_captura": {
+    "angulo_graus": 2.06,
+    "sombra_intensidade": 0.46,
+    "direcao_luz": "topo_base",
+    "blur_leve": true,
+    "modo_dificil": true,
+    "resolucao": "1654x1404"
+  }
+}

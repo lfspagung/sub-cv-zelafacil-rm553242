@@ -1,0 +1,22 @@
+{
+  "id": "dev_enel_05",
+  "arquivo": "dev_enel_05.jpg",
+  "empresa": "Enel Distribuição",
+  "endereco": {
+    "logradouro": "Rua Voluntários da Pátria",
+    "numero": "2310",
+    "complemento": "Apto 112",
+    "bairro": "Santana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "02010-900"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -5.66,
+    "sombra_intensidade": 0.42,
+    "direcao_luz": "topo_base",
+    "blur_leve": true,
+    "modo_dificil": true,
+    "resolucao": "1698x1292"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "test_claro_04",
+  "arquivo": "test_claro_04.jpg",
+  "empresa": "Claro Telecomunicações",
+  "endereco": {
+    "logradouro": "Rua Marechal Deodoro",
+    "numero": "1340",
+    "complemento": "Apto 53",
+    "bairro": "Centro",
+    "cidade": "São Bernardo do Campo",
+    "uf": "SP",
+    "cep": "09710-002"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -2.31,
+    "sombra_intensidade": 0.33,
+    "direcao_luz": "dir_esq",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1828x1224"
+  }
+}

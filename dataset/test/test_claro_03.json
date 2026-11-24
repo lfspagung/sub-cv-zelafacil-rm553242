@@ -1,0 +1,22 @@
+{
+  "id": "test_claro_03",
+  "arquivo": "test_claro_03.jpg",
+  "empresa": "Claro Telecomunicações",
+  "endereco": {
+    "logradouro": "Avenida Ana Costa",
+    "numero": "460",
+    "complemento": "",
+    "bairro": "Gonzaga",
+    "cidade": "Santos",
+    "uf": "SP",
+    "cep": "11060-002"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -1.99,
+    "sombra_intensidade": 0.23,
+    "direcao_luz": "topo_base",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1748x1292"
+  }
+}

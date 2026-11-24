@@ -1,0 +1,22 @@
+{
+  "id": "dev_sabesp_02",
+  "arquivo": "dev_sabesp_02.jpg",
+  "empresa": "Sabesp Saneamento",
+  "endereco": {
+    "logradouro": "Avenida Marechal Tito",
+    "numero": "4120",
+    "complemento": "Fundos",
+    "bairro": "Itaim Paulista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "08115-000"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -3.79,
+    "sombra_intensidade": 0.15,
+    "direcao_luz": "topo_base",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1674x1220"
+  }
+}

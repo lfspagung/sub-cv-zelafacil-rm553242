@@ -1,0 +1,22 @@
+{
+  "id": "dev_sabesp_03",
+  "arquivo": "dev_sabesp_03.jpg",
+  "empresa": "Sabesp Saneamento",
+  "endereco": {
+    "logradouro": "Rua Campos Salles",
+    "numero": "642",
+    "complemento": "Sala 4",
+    "bairro": "Centro",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "cep": "07011-010"
+  },
+  "condicoes_captura": {
+    "angulo_graus": 2.95,
+    "sombra_intensidade": 0.29,
+    "direcao_luz": "topo_base",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1662x1232"
+  }
+}

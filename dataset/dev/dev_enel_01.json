@@ -1,0 +1,22 @@
+{
+  "id": "dev_enel_01",
+  "arquivo": "dev_enel_01.jpg",
+  "empresa": "Enel Distribuição",
+  "endereco": {
+    "logradouro": "Rua General Francisco Glicério",
+    "numero": "1020",
+    "complemento": "Casa 2",
+    "bairro": "Centro",
+    "cidade": "Suzano",
+    "uf": "SP",
+    "cep": "08674-000"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -5.89,
+    "sombra_intensidade": 0.16,
+    "direcao_luz": "diagonal",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1864x1430"
+  }
+}

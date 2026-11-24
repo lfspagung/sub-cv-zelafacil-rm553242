@@ -1,0 +1,22 @@
+{
+  "id": "dev_sabesp_01",
+  "arquivo": "dev_sabesp_01.jpg",
+  "empresa": "Sabesp Saneamento",
+  "endereco": {
+    "logradouro": "Rua Dom Pedro II",
+    "numero": "315",
+    "complemento": "",
+    "bairro": "Centro",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "cep": "09080-110"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -5.12,
+    "sombra_intensidade": 0.32,
+    "direcao_luz": "diagonal",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1728x1268"
+  }
+}

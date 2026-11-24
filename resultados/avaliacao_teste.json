@@ -1,0 +1,2573 @@
+{
+  "autor": "Lucas de Freitas Pagung",
+  "rm": "553242",
+  "conjunto_avaliado": "dataset/test (15 imagens inéditas: 5 Enel, 5 Sabesp, 5 Claro)",
+  "com_preprocessamento": {
+    "usar_preprocessamento": true,
+    "total_imagens_teste": 15,
+    "confianca_media_ocr_geral": 87.2,
+    "identificacao_empresa_correta": 15,
+    "identificacao_empresa_pct": 100.0,
+    "endereco_completo_correto": 5,
+    "endereco_completo_pct": 33.33,
+    "acerto_medio_campos_obrigatorios_pct": 77.78,
+    "acerto_por_campo_pct": {
+      "logradouro": 33.33,
+      "numero": 33.33,
+      "complemento": 60.0,
+      "bairro": 100.0,
+      "cidade": 100.0,
+      "uf": 100.0,
+      "cep": 100.0
+    },
+    "acerto_por_empresa": {
+      "Enel Distribuição": {
+        "total_imagens": 5,
+        "identificacao_empresa_pct": 100.0,
+        "acerto_campos_obrigatorios_pct": 66.67,
+        "endereco_completo_correto": 0,
+        "endereco_completo_pct": 0.0
+      },
+      "Sabesp Saneamento": {
+        "total_imagens": 5,
+        "identificacao_empresa_pct": 100.0,
+        "acerto_campos_obrigatorios_pct": 100.0,
+        "endereco_completo_correto": 5,
+        "endereco_completo_pct": 100.0
+      },
+      "Claro Telecomunicações": {
+        "total_imagens": 5,
+        "identificacao_empresa_pct": 100.0,
+        "acerto_campos_obrigatorios_pct": 66.67,
+        "endereco_completo_correto": 0,
+        "endereco_completo_pct": 0.0
+      }
+    },
+    "avaliacao_confianca": {
+      "total_campos_obrigatorios_avaliados": 90,
+      "total_erros": 20,
+      "erros_sinalizados": 20,
+      "erros_sem_aviso": 0,
+      "taxa_deteccao_erros_pct": 100.0,
+      "acertos_sinalizados_falso_alarme": 20,
+      "acertos_sem_aviso": 50
+    },
+    "detalhes_por_imagem": [
+      {
+        "id": "test_enel_01",
+        "arquivo": "test_enel_01.jpg",
+        "empresa_gabarito": "Enel Distribuição",
+        "empresa_identificada": "Enel Distribuição",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 86.76,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": 1.31,
+          "sombra_intensidade": 0.28,
+          "direcao_luz": "dir_esq",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1730x1446"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua Benjamin Constant",
+            "extraido": "DA UNIDADE CONSUMIDORA",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 90.9,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "845",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "Apto 21",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": false,
+            "confianca_ocr": 86.8,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Centro",
+            "extraido": "Centro",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.8,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "Suzano",
+            "extraido": "Suzano",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 92.3,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 71.8,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (71.8% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "08674-010",
+            "extraido": "08674-010",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 84.6,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_enel_02",
+        "arquivo": "test_enel_02.jpg",
+        "empresa_gabarito": "Enel Distribuição",
+        "empresa_identificada": "Enel Distribuição",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 87.76,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": 3.6,
+          "sombra_intensidade": 0.29,
+          "direcao_luz": "topo_base",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1654x1308"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Avenida Armando Sales de Oliveira",
+            "extraido": "DA UNIDADE CONSUMIDORA",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 86.5,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "1670",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "",
+            "extraido": "",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 87.8,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Parque Suzano",
+            "extraido": "Parque Suzano",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 78.2,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (78.2% < 82%)"
+            ]
+          },
+          "cidade": {
+            "gabarito": "Suzano",
+            "extraido": "Suzano",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 79.6,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (79.6% < 82%)"
+            ]
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 72.8,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (72.8% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "08673-000",
+            "extraido": "08673-000",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 86.2,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_enel_03",
+        "arquivo": "test_enel_03.jpg",
+        "empresa_gabarito": "Enel Distribuição",
+        "empresa_identificada": "Enel Distribuição",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 88.22,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": -2.86,
+          "sombra_intensidade": 0.3,
+          "direcao_luz": "esq_dir",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1696x1328"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua José Bonifácio",
+            "extraido": "DA UNIDADE CONSUMIDORA",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 93.4,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "512",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "Casa 3",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": false,
+            "confianca_ocr": 88.2,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Centro",
+            "extraido": "Centro",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 88.5,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "Mogi das Cruzes",
+            "extraido": "Mogi das Cruzes",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 87.0,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 73.2,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (73.2% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "08710-070",
+            "extraido": "08710-070",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_enel_04",
+        "arquivo": "test_enel_04.jpg",
+        "empresa_gabarito": "Enel Distribuição",
+        "empresa_identificada": "Enel Distribuição",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 88.83,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": 3.73,
+          "sombra_intensidade": 0.19,
+          "direcao_luz": "topo_base",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1800x1330"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Avenida Vital Brasil",
+            "extraido": "DA UNIDADE CONSUMIDORA",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 95.2,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "930",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "Apto 64",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": false,
+            "confianca_ocr": 88.8,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Butantã",
+            "extraido": "Butantã",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.5,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "São Paulo",
+            "extraido": "São Paulo",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 92.1,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 73.8,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (73.8% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "05503-001",
+            "extraido": "05503-001",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 93.8,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_enel_05",
+        "arquivo": "test_enel_05.jpg",
+        "empresa_gabarito": "Enel Distribuição",
+        "empresa_identificada": "Enel Distribuição",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 82.36,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": 6.39,
+          "sombra_intensidade": 0.4,
+          "direcao_luz": "dir_esq",
+          "blur_leve": true,
+          "modo_dificil": true,
+          "resolucao": "1658x1346"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua Coronel Cardoso de Siqueira",
+            "extraido": "DA UNIDADE CONSUMIDORA",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 94.4,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "1185",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "",
+            "extraido": "",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 82.4,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Vila Oliveira",
+            "extraido": "Vila Oliveira",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 92.1,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "Mogi das Cruzes",
+            "extraido": "Mogi das Cruzes",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 90.2,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 67.4,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (67.4% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "08780-000",
+            "extraido": "08780-000",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 83.0,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_sabesp_01",
+        "arquivo": "test_sabesp_01.jpg",
+        "empresa_gabarito": "Sabesp Saneamento",
+        "empresa_identificada": "Sabesp Saneamento",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 89.79,
+        "endereco_completo_correto": true,
+        "condicoes_captura": {
+          "angulo_graus": -3.23,
+          "sombra_intensidade": 0.28,
+          "direcao_luz": "diagonal",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1798x1238"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua Coronel Oliveira Lima",
+            "extraido": "Rua Coronel Oliveira Lima",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 90.9,
+            "motivos_duvida": []
+          },
+          "numero": {
+            "gabarito": "478",
+            "extraido": "478",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "complemento": {
+            "gabarito": "Apto 15",
+            "extraido": "Apto 15",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.8,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Centro",
+            "extraido": "Centro",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 80.8,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (80.8% < 82%)"
+            ]
+          },
+          "cidade": {
+            "gabarito": "Santo André",
+            "extraido": "Santo André",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.7,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "cep": {
+            "gabarito": "09010-000",
+            "extraido": "09010-000",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 93.8,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_sabesp_02",
+        "arquivo": "test_sabesp_02.jpg",
+        "empresa_gabarito": "Sabesp Saneamento",
+        "empresa_identificada": "Sabesp Saneamento",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 85.39,
+        "endereco_completo_correto": true,
+        "condicoes_captura": {
+          "angulo_graus": 4.26,
+          "sombra_intensidade": 0.21,
+          "direcao_luz": "esq_dir",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1758x1416"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Avenida Goiás",
+            "extraido": "Avenida Goiás",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 84.9,
+            "motivos_duvida": []
+          },
+          "numero": {
+            "gabarito": "1950",
+            "extraido": "1950",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "complemento": {
+            "gabarito": "",
+            "extraido": "",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 85.4,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Barcelona",
+            "extraido": "Barcelona",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 77.8,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (77.8% < 82%)"
+            ]
+          },
+          "cidade": {
+            "gabarito": "São Caetano do Sul",
+            "extraido": "São Caetano do Sul",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 87.4,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "cep": {
+            "gabarito": "09550-050",
+            "extraido": "09550-050",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_sabesp_03",
+        "arquivo": "test_sabesp_03.jpg",
+        "empresa_gabarito": "Sabesp Saneamento",
+        "empresa_identificada": "Sabesp Saneamento",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 86.41,
+        "endereco_completo_correto": true,
+        "condicoes_captura": {
+          "angulo_graus": -6.25,
+          "sombra_intensidade": 0.18,
+          "direcao_luz": "esq_dir",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1880x1356"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua Domingos de Morais",
+            "extraido": "Rua Domingos de Morais",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 85.8,
+            "motivos_duvida": []
+          },
+          "numero": {
+            "gabarito": "1420",
+            "extraido": "1420",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 93.0,
+            "motivos_duvida": []
+          },
+          "complemento": {
+            "gabarito": "Bloco A",
+            "extraido": "Bloco A",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 79.3,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (79.3% < 82%)"
+            ]
+          },
+          "bairro": {
+            "gabarito": "Vila Mariana",
+            "extraido": "Vila Mariana",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 72.9,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (72.9% < 82%)"
+            ]
+          },
+          "cidade": {
+            "gabarito": "São Paulo",
+            "extraido": "São Paulo",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 80.9,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (80.9% < 82%)"
+            ]
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "cep": {
+            "gabarito": "04010-200",
+            "extraido": "04010-200",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_sabesp_04",
+        "arquivo": "test_sabesp_04.jpg",
+        "empresa_gabarito": "Sabesp Saneamento",
+        "empresa_identificada": "Sabesp Saneamento",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 87.2,
+        "endereco_completo_correto": true,
+        "condicoes_captura": {
+          "angulo_graus": 4.67,
+          "sombra_intensidade": 0.28,
+          "direcao_luz": "diagonal",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1674x1422"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Avenida Salgado Filho",
+            "extraido": "Avenida Salgado Filho",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "numero": {
+            "gabarito": "625",
+            "extraido": "625",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "complemento": {
+            "gabarito": "Casa 4",
+            "extraido": "Casa 4",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Maia",
+            "extraido": "Maia",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "Guarulhos",
+            "extraido": "Guarulhos",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.7,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "cep": {
+            "gabarito": "07115-000",
+            "extraido": "07115-000",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 93.8,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_sabesp_05",
+        "arquivo": "test_sabesp_05.jpg",
+        "empresa_gabarito": "Sabesp Saneamento",
+        "empresa_identificada": "Sabesp Saneamento",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 87.63,
+        "endereco_completo_correto": true,
+        "condicoes_captura": {
+          "angulo_graus": -6.45,
+          "sombra_intensidade": 0.53,
+          "direcao_luz": "diagonal",
+          "blur_leve": false,
+          "modo_dificil": true,
+          "resolucao": "1708x1396"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua Padre João",
+            "extraido": "Rua Padre João",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.5,
+            "motivos_duvida": []
+          },
+          "numero": {
+            "gabarito": "290",
+            "extraido": "290",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "complemento": {
+            "gabarito": "",
+            "extraido": "",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 87.6,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Penha",
+            "extraido": "Penha",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.5,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "São Paulo",
+            "extraido": "São Paulo",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 92.8,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "cep": {
+            "gabarito": "03637-000",
+            "extraido": "03637-000",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.5,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_claro_01",
+        "arquivo": "test_claro_01.jpg",
+        "empresa_gabarito": "Claro Telecomunicações",
+        "empresa_identificada": "Claro Telecomunicações",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 88.88,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": 2.6,
+          "sombra_intensidade": 0.17,
+          "direcao_luz": "diagonal",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1686x1432"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Avenida Brigadeiro Luís Antônio",
+            "extraido": "DE INSTALACAO / DADOS DO ASSINANTE",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 84.0,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "2750",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "Apto 92",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": false,
+            "confianca_ocr": 88.9,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Jardim Paulista",
+            "extraido": "Jardim Paulista",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 83.2,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "São Paulo",
+            "extraido": "São Paulo",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 75.5,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (75.5% < 82%)"
+            ]
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 93.0,
+            "motivos_duvida": []
+          },
+          "cep": {
+            "gabarito": "01402-000",
+            "extraido": "01402-000",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.0,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_claro_02",
+        "arquivo": "test_claro_02.jpg",
+        "empresa_gabarito": "Claro Telecomunicações",
+        "empresa_identificada": "Claro Telecomunicações",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 89.65,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": -5.33,
+          "sombra_intensidade": 0.21,
+          "direcao_luz": "diagonal",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1836x1398"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua Haddock Lobo",
+            "extraido": "DE INSTALACAO / DADOS DO ASSINANTE",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 92.9,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "595",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "Conj 41",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": false,
+            "confianca_ocr": 89.7,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Cerqueira César",
+            "extraido": "Cerqueira César",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 74.5,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (74.5% < 82%)"
+            ]
+          },
+          "cidade": {
+            "gabarito": "São Paulo",
+            "extraido": "São Paulo",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 89.3,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 93.0,
+            "motivos_duvida": []
+          },
+          "cep": {
+            "gabarito": "01414-001",
+            "extraido": "01414-001",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.2,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_claro_03",
+        "arquivo": "test_claro_03.jpg",
+        "empresa_gabarito": "Claro Telecomunicações",
+        "empresa_identificada": "Claro Telecomunicações",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 91.84,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": -1.99,
+          "sombra_intensidade": 0.23,
+          "direcao_luz": "topo_base",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1748x1292"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Avenida Ana Costa",
+            "extraido": "DE INSTALACAO / DADOS DO ASSINANTE",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 94.9,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "460",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "",
+            "extraido": "",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 91.8,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Gonzaga",
+            "extraido": "Gonzaga",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.7,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "Santos",
+            "extraido": "Santos",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 91.8,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 70.0,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (70.0% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "11060-002",
+            "extraido": "11060-002",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.2,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_claro_04",
+        "arquivo": "test_claro_04.jpg",
+        "empresa_gabarito": "Claro Telecomunicações",
+        "empresa_identificada": "Claro Telecomunicações",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 85.26,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": -2.31,
+          "sombra_intensidade": 0.33,
+          "direcao_luz": "dir_esq",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1828x1224"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua Marechal Deodoro",
+            "extraido": "DE INSTALACAO / DADOS DO ASSINANTE",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 82.9,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "1340",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "Apto 53",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": false,
+            "confianca_ocr": 85.3,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Centro",
+            "extraido": "Centro",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 78.4,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (78.4% < 82%)"
+            ]
+          },
+          "cidade": {
+            "gabarito": "São Bernardo do Campo",
+            "extraido": "São Bernardo do Campo",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 78.4,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (78.4% < 82%)"
+            ]
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 90.0,
+            "motivos_duvida": []
+          },
+          "cep": {
+            "gabarito": "09710-002",
+            "extraido": "09710-002",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_claro_05",
+        "arquivo": "test_claro_05.jpg",
+        "empresa_gabarito": "Claro Telecomunicações",
+        "empresa_identificada": "Claro Telecomunicações",
+        "empresa_correta": true,
+        "perspectiva_corrigida": true,
+        "confianca_media_ocr": 81.98,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": -7.58,
+          "sombra_intensidade": 0.39,
+          "direcao_luz": "topo_base",
+          "blur_leve": true,
+          "modo_dificil": true,
+          "resolucao": "1682x1324"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Avenida Doutor Moraes Salles",
+            "extraido": "DE INSTALACAO / DADOS DO ASSINANTE",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 71.4,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum",
+              "Baixa confiança do OCR (71.4% < 82%)"
+            ]
+          },
+          "numero": {
+            "gabarito": "810",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "",
+            "extraido": "",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 82.0,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Centro",
+            "extraido": "Centro",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 56.8,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (56.8% < 82%)"
+            ]
+          },
+          "cidade": {
+            "gabarito": "Campinas",
+            "extraido": "Campinas",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 76.2,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (76.2% < 82%)"
+            ]
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 73.0,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (73.0% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "13010-001",
+            "extraido": "13010-001",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 66.0,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (66.0% < 82%)"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "sem_preprocessamento": {
+    "usar_preprocessamento": false,
+    "total_imagens_teste": 15,
+    "confianca_media_ocr_geral": 88.71,
+    "identificacao_empresa_correta": 14,
+    "identificacao_empresa_pct": 93.33,
+    "endereco_completo_correto": 5,
+    "endereco_completo_pct": 33.33,
+    "acerto_medio_campos_obrigatorios_pct": 78.89,
+    "acerto_por_campo_pct": {
+      "logradouro": 40.0,
+      "numero": 40.0,
+      "complemento": 66.67,
+      "bairro": 100.0,
+      "cidade": 100.0,
+      "uf": 93.33,
+      "cep": 100.0
+    },
+    "acerto_por_empresa": {
+      "Enel Distribuição": {
+        "total_imagens": 5,
+        "identificacao_empresa_pct": 100.0,
+        "acerto_campos_obrigatorios_pct": 66.67,
+        "endereco_completo_correto": 0,
+        "endereco_completo_pct": 0.0
+      },
+      "Sabesp Saneamento": {
+        "total_imagens": 5,
+        "identificacao_empresa_pct": 100.0,
+        "acerto_campos_obrigatorios_pct": 86.67,
+        "endereco_completo_correto": 3,
+        "endereco_completo_pct": 60.0
+      },
+      "Claro Telecomunicações": {
+        "total_imagens": 5,
+        "identificacao_empresa_pct": 80.0,
+        "acerto_campos_obrigatorios_pct": 83.33,
+        "endereco_completo_correto": 2,
+        "endereco_completo_pct": 40.0
+      }
+    },
+    "avaliacao_confianca": {
+      "total_campos_obrigatorios_avaliados": 90,
+      "total_erros": 19,
+      "erros_sinalizados": 19,
+      "erros_sem_aviso": 0,
+      "taxa_deteccao_erros_pct": 100.0,
+      "acertos_sinalizados_falso_alarme": 29,
+      "acertos_sem_aviso": 42
+    },
+    "detalhes_por_imagem": [
+      {
+        "id": "test_enel_01",
+        "arquivo": "test_enel_01.jpg",
+        "empresa_gabarito": "Enel Distribuição",
+        "empresa_identificada": "Enel Distribuição",
+        "empresa_correta": true,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 91.77,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": 1.31,
+          "sombra_intensidade": 0.28,
+          "direcao_luz": "dir_esq",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1730x1446"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua Benjamin Constant",
+            "extraido": "DA UNIDADE CONSUMIDORA",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 86.3,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "845",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "Apto 21",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": false,
+            "confianca_ocr": 91.8,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Centro",
+            "extraido": "Centro",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 77.5,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (77.5% < 82%)"
+            ]
+          },
+          "cidade": {
+            "gabarito": "Suzano",
+            "extraido": "Suzano",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 66.2,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (66.2% < 82%)"
+            ]
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 76.8,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (76.8% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "08674-010",
+            "extraido": "08674-010",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.7,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_enel_02",
+        "arquivo": "test_enel_02.jpg",
+        "empresa_gabarito": "Enel Distribuição",
+        "empresa_identificada": "Enel Distribuição",
+        "empresa_correta": true,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 91.39,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": 3.6,
+          "sombra_intensidade": 0.29,
+          "direcao_luz": "topo_base",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1654x1308"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Avenida Armando Sales de Oliveira",
+            "extraido": "DA UNIDADE CONSUMIDORA",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 91.6,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "1670",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "",
+            "extraido": "",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 91.4,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Parque Suzano",
+            "extraido": "Parque Suzano",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 87.1,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "Suzano",
+            "extraido": "Suzano",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 80.7,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (80.7% < 82%)"
+            ]
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 76.4,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (76.4% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "08673-000",
+            "extraido": "08673-000",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.2,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_enel_03",
+        "arquivo": "test_enel_03.jpg",
+        "empresa_gabarito": "Enel Distribuição",
+        "empresa_identificada": "Enel Distribuição",
+        "empresa_correta": true,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 91.97,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": -2.86,
+          "sombra_intensidade": 0.3,
+          "direcao_luz": "esq_dir",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1696x1328"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua José Bonifácio",
+            "extraido": "DA UNIDADE CONSUMIDORA",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 88.7,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "512",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "Casa 3",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": false,
+            "confianca_ocr": 92.0,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Centro",
+            "extraido": "Centro",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.4,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "Mogi das Cruzes",
+            "extraido": "Mogi das Cruzes",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 84.3,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 77.0,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (77.0% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "08710-070",
+            "extraido": "08710-070",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_enel_04",
+        "arquivo": "test_enel_04.jpg",
+        "empresa_gabarito": "Enel Distribuição",
+        "empresa_identificada": "Enel Distribuição",
+        "empresa_correta": true,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 93.35,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": 3.73,
+          "sombra_intensidade": 0.19,
+          "direcao_luz": "topo_base",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1800x1330"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Avenida Vital Brasil",
+            "extraido": "DA UNIDADE CONSUMIDORA",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 95.7,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "930",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "Apto 64",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": false,
+            "confianca_ocr": 93.3,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Butantã",
+            "extraido": "Butantã",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "São Paulo",
+            "extraido": "São Paulo",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.7,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 78.3,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (78.3% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "05503-001",
+            "extraido": "05503-001",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.0,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_enel_05",
+        "arquivo": "test_enel_05.jpg",
+        "empresa_gabarito": "Enel Distribuição",
+        "empresa_identificada": "Enel Distribuição",
+        "empresa_correta": true,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 87.04,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": 6.39,
+          "sombra_intensidade": 0.4,
+          "direcao_luz": "dir_esq",
+          "blur_leve": true,
+          "modo_dificil": true,
+          "resolucao": "1658x1346"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua Coronel Cardoso de Siqueira",
+            "extraido": "DA UNIDADE CONSUMIDORA",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 82.8,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "1185",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "",
+            "extraido": "",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 87.0,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Vila Oliveira",
+            "extraido": "Vila Oliveira",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 66.6,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (66.6% < 82%)"
+            ]
+          },
+          "cidade": {
+            "gabarito": "Mogi das Cruzes",
+            "extraido": "Mogi das Cruzes",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 71.4,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (71.4% < 82%)"
+            ]
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 72.0,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (72.0% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "08780-000",
+            "extraido": "08780-000",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.5,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_sabesp_01",
+        "arquivo": "test_sabesp_01.jpg",
+        "empresa_gabarito": "Sabesp Saneamento",
+        "empresa_identificada": "Sabesp Saneamento",
+        "empresa_correta": true,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 91.12,
+        "endereco_completo_correto": true,
+        "condicoes_captura": {
+          "angulo_graus": -3.23,
+          "sombra_intensidade": 0.28,
+          "direcao_luz": "diagonal",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1798x1238"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua Coronel Oliveira Lima",
+            "extraido": "Rua Coronel Oliveira Lima",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 88.4,
+            "motivos_duvida": []
+          },
+          "numero": {
+            "gabarito": "478",
+            "extraido": "478",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 82.0,
+            "motivos_duvida": []
+          },
+          "complemento": {
+            "gabarito": "Apto 15",
+            "extraido": "Apto 15",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.5,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Centro",
+            "extraido": "Centro",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 64.2,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (64.2% < 82%)"
+            ]
+          },
+          "cidade": {
+            "gabarito": "Santo André",
+            "extraido": "Santo André",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 89.5,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 75.0,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (75.0% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "09010-000",
+            "extraido": "09010-000",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 85.2,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_sabesp_02",
+        "arquivo": "test_sabesp_02.jpg",
+        "empresa_gabarito": "Sabesp Saneamento",
+        "empresa_identificada": "Sabesp Saneamento",
+        "empresa_correta": true,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 91.22,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": 4.26,
+          "sombra_intensidade": 0.21,
+          "direcao_luz": "esq_dir",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1758x1416"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Avenida Goiás",
+            "extraido": "/ DADOS DO TITULAR",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "1950",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "",
+            "extraido": "",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 91.2,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Barcelona",
+            "extraido": "Barcelona",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "São Caetano do Sul",
+            "extraido": "São Caetano do Sul",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.2,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.0,
+            "motivos_duvida": []
+          },
+          "cep": {
+            "gabarito": "09550-050",
+            "extraido": "09550-050",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_sabesp_03",
+        "arquivo": "test_sabesp_03.jpg",
+        "empresa_gabarito": "Sabesp Saneamento",
+        "empresa_identificada": "Sabesp Saneamento",
+        "empresa_correta": true,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 82.02,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": -6.25,
+          "sombra_intensidade": 0.18,
+          "direcao_luz": "esq_dir",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1880x1356"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua Domingos de Morais",
+            "extraido": "DO jMOVEL / DADOS DO TITULAR",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 81.1,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum",
+              "Baixa confiança do OCR (81.1% < 82%)"
+            ]
+          },
+          "numero": {
+            "gabarito": "1420",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "Bloco A",
+            "extraido": "Bloco A",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 88.8,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Vila Mariana",
+            "extraido": "vila Mariana ]",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 87.2,
+            "motivos_duvida": [
+              "Possível ruído de caractere no OCR"
+            ]
+          },
+          "cidade": {
+            "gabarito": "São Paulo",
+            "extraido": "são Paulo",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 81.1,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (81.1% < 82%)"
+            ]
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 65.0,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (65.0% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "04010-200",
+            "extraido": "04010-200",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.0,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_sabesp_04",
+        "arquivo": "test_sabesp_04.jpg",
+        "empresa_gabarito": "Sabesp Saneamento",
+        "empresa_identificada": "Sabesp Saneamento",
+        "empresa_correta": true,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 88.04,
+        "endereco_completo_correto": true,
+        "condicoes_captura": {
+          "angulo_graus": 4.67,
+          "sombra_intensidade": 0.28,
+          "direcao_luz": "diagonal",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1674x1422"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Avenida Salgado Filho",
+            "extraido": "Avenida Salgado Filho",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 85.6,
+            "motivos_duvida": []
+          },
+          "numero": {
+            "gabarito": "625",
+            "extraido": "625",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "complemento": {
+            "gabarito": "Casa 4",
+            "extraido": "Casa 4",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 86.8,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Maia",
+            "extraido": "Maia",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 78.7,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (78.7% < 82%)"
+            ]
+          },
+          "cidade": {
+            "gabarito": "Guarulhos",
+            "extraido": "Guarulhos",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 84.7,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "cep": {
+            "gabarito": "07115-000",
+            "extraido": "07115-000",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 80.5,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (80.5% < 82%)"
+            ]
+          }
+        }
+      },
+      {
+        "id": "test_sabesp_05",
+        "arquivo": "test_sabesp_05.jpg",
+        "empresa_gabarito": "Sabesp Saneamento",
+        "empresa_identificada": "Sabesp Saneamento",
+        "empresa_correta": true,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 74.38,
+        "endereco_completo_correto": true,
+        "condicoes_captura": {
+          "angulo_graus": -6.45,
+          "sombra_intensidade": 0.53,
+          "direcao_luz": "diagonal",
+          "blur_leve": false,
+          "modo_dificil": true,
+          "resolucao": "1708x1396"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua Padre João",
+            "extraido": "Rua padre João",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 64.0,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (64.0% < 82%)"
+            ]
+          },
+          "numero": {
+            "gabarito": "290",
+            "extraido": "290",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 77.0,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (77.0% < 82%)"
+            ]
+          },
+          "complemento": {
+            "gabarito": "",
+            "extraido": "",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 74.4,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Penha",
+            "extraido": "penha",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 58.4,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (58.4% < 82%)"
+            ]
+          },
+          "cidade": {
+            "gabarito": "São Paulo",
+            "extraido": "são Paulo",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 78.2,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (78.2% < 82%)"
+            ]
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 64.0,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (64.0% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "03637-000",
+            "extraido": "03637-000",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_claro_01",
+        "arquivo": "test_claro_01.jpg",
+        "empresa_gabarito": "Claro Telecomunicações",
+        "empresa_identificada": "Claro Telecomunicações",
+        "empresa_correta": true,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 94.21,
+        "endereco_completo_correto": true,
+        "condicoes_captura": {
+          "angulo_graus": 2.6,
+          "sombra_intensidade": 0.17,
+          "direcao_luz": "diagonal",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1686x1432"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Avenida Brigadeiro Luís Antônio",
+            "extraido": "Avenida Brigadeiro Luís Antônio",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.0,
+            "motivos_duvida": []
+          },
+          "numero": {
+            "gabarito": "2750",
+            "extraido": "2750",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "complemento": {
+            "gabarito": "Apto 92",
+            "extraido": "Apto 92",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.5,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Jardim Paulista",
+            "extraido": "Jardim Paulista",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 93.8,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "São Paulo",
+            "extraido": "São Paulo",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 93.0,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.0,
+            "motivos_duvida": []
+          },
+          "cep": {
+            "gabarito": "01402-000",
+            "extraido": "01402-000",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.0,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_claro_02",
+        "arquivo": "test_claro_02.jpg",
+        "empresa_gabarito": "Claro Telecomunicações",
+        "empresa_identificada": "Claro Telecomunicações",
+        "empresa_correta": true,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 88.26,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": -5.33,
+          "sombra_intensidade": 0.21,
+          "direcao_luz": "diagonal",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1836x1398"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua Haddock Lobo",
+            "extraido": "DE INSTALACAO | DADOS DO ASSINANTE",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 95.4,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum",
+              "Possível ruído de caractere no OCR"
+            ]
+          },
+          "numero": {
+            "gabarito": "595",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "Conj 41",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": false,
+            "confianca_ocr": 88.3,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Cerqueira César",
+            "extraido": "Cerqueira César",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.5,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "São Paulo",
+            "extraido": "são Paulo",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 88.0,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 55.0,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (55.0% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "01414-001",
+            "extraido": "01414-001",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 75.5,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (75.5% < 82%)"
+            ]
+          }
+        }
+      },
+      {
+        "id": "test_claro_03",
+        "arquivo": "test_claro_03.jpg",
+        "empresa_gabarito": "Claro Telecomunicações",
+        "empresa_identificada": "Claro Telecomunicações",
+        "empresa_correta": true,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 87.57,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": -1.99,
+          "sombra_intensidade": 0.23,
+          "direcao_luz": "topo_base",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1748x1292"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Avenida Ana Costa",
+            "extraido": "Avenida Ana Costa",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 77.2,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (77.2% < 82%)"
+            ]
+          },
+          "numero": {
+            "gabarito": "460",
+            "extraido": "460",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          },
+          "complemento": {
+            "gabarito": "",
+            "extraido": "",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 87.6,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Gonzaga",
+            "extraido": "Gonzaga",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 78.4,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (78.4% < 82%)"
+            ]
+          },
+          "cidade": {
+            "gabarito": "Santos",
+            "extraido": "Santos",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 71.3,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (71.3% < 82%)"
+            ]
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SA",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 23.0,
+            "motivos_duvida": [
+              "UF 'SA' não reconhecida",
+              "Baixa confiança do OCR (23.0% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "11060-002",
+            "extraido": "11060-002",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.0,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_claro_04",
+        "arquivo": "test_claro_04.jpg",
+        "empresa_gabarito": "Claro Telecomunicações",
+        "empresa_identificada": "Enel Distribuição",
+        "empresa_correta": false,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 93.55,
+        "endereco_completo_correto": false,
+        "condicoes_captura": {
+          "angulo_graus": -2.31,
+          "sombra_intensidade": 0.33,
+          "direcao_luz": "dir_esq",
+          "blur_leve": false,
+          "modo_dificil": false,
+          "resolucao": "1828x1224"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Rua Marechal Deodoro",
+            "extraido": "DE INSTALACAO / DADOS DO ASSINANTE",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 95.2,
+            "motivos_duvida": [
+              "Tipo de logradouro ausente ou incomum"
+            ]
+          },
+          "numero": {
+            "gabarito": "1340",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": true,
+            "confianca_ocr": 0.0,
+            "motivos_duvida": [
+              "Campo obrigatório ausente"
+            ]
+          },
+          "complemento": {
+            "gabarito": "Apto 53",
+            "extraido": "",
+            "correto": false,
+            "duvidoso": false,
+            "confianca_ocr": 93.5,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Centro",
+            "extraido": "Centro",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.0,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "São Bernardo do Campo",
+            "extraido": "São Bernardo do Campo",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.8,
+            "motivos_duvida": []
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 90.0,
+            "motivos_duvida": []
+          },
+          "cep": {
+            "gabarito": "09710-002",
+            "extraido": "09710-002",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          }
+        }
+      },
+      {
+        "id": "test_claro_05",
+        "arquivo": "test_claro_05.jpg",
+        "empresa_gabarito": "Claro Telecomunicações",
+        "empresa_identificada": "Claro Telecomunicações",
+        "empresa_correta": true,
+        "perspectiva_corrigida": false,
+        "confianca_media_ocr": 84.72,
+        "endereco_completo_correto": true,
+        "condicoes_captura": {
+          "angulo_graus": -7.58,
+          "sombra_intensidade": 0.39,
+          "direcao_luz": "topo_base",
+          "blur_leve": true,
+          "modo_dificil": true,
+          "resolucao": "1682x1324"
+        },
+        "campos": {
+          "logradouro": {
+            "gabarito": "Avenida Doutor Moraes Salles",
+            "extraido": "avenida Doutor Moraes Salles",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 82.6,
+            "motivos_duvida": []
+          },
+          "numero": {
+            "gabarito": "810",
+            "extraido": "810",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 92.0,
+            "motivos_duvida": []
+          },
+          "complemento": {
+            "gabarito": "",
+            "extraido": "",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 84.7,
+            "motivos_duvida": []
+          },
+          "bairro": {
+            "gabarito": "Centro",
+            "extraido": "Centro",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.0,
+            "motivos_duvida": []
+          },
+          "cidade": {
+            "gabarito": "Campinas",
+            "extraido": "Campinas",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 79.2,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (79.2% < 82%)"
+            ]
+          },
+          "uf": {
+            "gabarito": "SP",
+            "extraido": "SP",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 60.5,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (60.5% < 82%)"
+            ]
+          },
+          "cep": {
+            "gabarito": "13010-001",
+            "extraido": "13010-001",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
+          }
+        }
+      }
+    ]
+  }
+}

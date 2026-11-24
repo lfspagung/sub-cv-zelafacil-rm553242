@@ -1,0 +1,22 @@
+{
+  "id": "test_enel_04",
+  "arquivo": "test_enel_04.jpg",
+  "empresa": "Enel Distribuição",
+  "endereco": {
+    "logradouro": "Avenida Vital Brasil",
+    "numero": "930",
+    "complemento": "Apto 64",
+    "bairro": "Butantã",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "05503-001"
+  },
+  "condicoes_captura": {
+    "angulo_graus": 3.73,
+    "sombra_intensidade": 0.19,
+    "direcao_luz": "topo_base",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1800x1330"
+  }
+}

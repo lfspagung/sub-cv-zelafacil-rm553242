@@ -1,0 +1,22 @@
+{
+  "id": "test_sabesp_03",
+  "arquivo": "test_sabesp_03.jpg",
+  "empresa": "Sabesp Saneamento",
+  "endereco": {
+    "logradouro": "Rua Domingos de Morais",
+    "numero": "1420",
+    "complemento": "Bloco A",
+    "bairro": "Vila Mariana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "04010-200"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -6.25,
+    "sombra_intensidade": 0.18,
+    "direcao_luz": "esq_dir",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1880x1356"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "test_enel_03",
+  "arquivo": "test_enel_03.jpg",
+  "empresa": "Enel Distribuição",
+  "endereco": {
+    "logradouro": "Rua José Bonifácio",
+    "numero": "512",
+    "complemento": "Casa 3",
+    "bairro": "Centro",
+    "cidade": "Mogi das Cruzes",
+    "uf": "SP",
+    "cep": "08710-070"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -2.86,
+    "sombra_intensidade": 0.3,
+    "direcao_luz": "esq_dir",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1696x1328"
+  }
+}

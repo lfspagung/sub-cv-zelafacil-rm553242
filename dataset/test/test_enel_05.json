@@ -1,0 +1,22 @@
+{
+  "id": "test_enel_05",
+  "arquivo": "test_enel_05.jpg",
+  "empresa": "Enel Distribuição",
+  "endereco": {
+    "logradouro": "Rua Coronel Cardoso de Siqueira",
+    "numero": "1185",
+    "complemento": "",
+    "bairro": "Vila Oliveira",
+    "cidade": "Mogi das Cruzes",
+    "uf": "SP",
+    "cep": "08780-000"
+  },
+  "condicoes_captura": {
+    "angulo_graus": 6.39,
+    "sombra_intensidade": 0.4,
+    "direcao_luz": "dir_esq",
+    "blur_leve": true,
+    "modo_dificil": true,
+    "resolucao": "1658x1346"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "test_enel_01",
+  "arquivo": "test_enel_01.jpg",
+  "empresa": "Enel Distribuição",
+  "endereco": {
+    "logradouro": "Rua Benjamin Constant",
+    "numero": "845",
+    "complemento": "Apto 21",
+    "bairro": "Centro",
+    "cidade": "Suzano",
+    "uf": "SP",
+    "cep": "08674-010"
+  },
+  "condicoes_captura": {
+    "angulo_graus": 1.31,
+    "sombra_intensidade": 0.28,
+    "direcao_luz": "dir_esq",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1730x1446"
+  }
+}

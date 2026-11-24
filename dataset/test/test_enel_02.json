@@ -1,0 +1,22 @@
+{
+  "id": "test_enel_02",
+  "arquivo": "test_enel_02.jpg",
+  "empresa": "Enel Distribuição",
+  "endereco": {
+    "logradouro": "Avenida Armando Sales de Oliveira",
+    "numero": "1670",
+    "complemento": "",
+    "bairro": "Parque Suzano",
+    "cidade": "Suzano",
+    "uf": "SP",
+    "cep": "08673-000"
+  },
+  "condicoes_captura": {
+    "angulo_graus": 3.6,
+    "sombra_intensidade": 0.29,
+    "direcao_luz": "topo_base",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1654x1308"
+  }
+}

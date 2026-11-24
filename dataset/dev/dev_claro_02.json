@@ -1,0 +1,22 @@
+{
+  "id": "dev_claro_02",
+  "arquivo": "dev_claro_02.jpg",
+  "empresa": "Claro Telecomunicações",
+  "endereco": {
+    "logradouro": "Avenida Francisco Matarazzo",
+    "numero": "780",
+    "complemento": "Conj 12",
+    "bairro": "Água Branca",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "05001-000"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -0.01,
+    "sombra_intensidade": 0.24,
+    "direcao_luz": "dir_esq",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1728x1268"
+  }
+}

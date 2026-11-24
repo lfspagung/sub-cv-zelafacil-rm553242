@@ -1,0 +1,22 @@
+{
+  "id": "dev_sabesp_04",
+  "arquivo": "dev_sabesp_04.jpg",
+  "empresa": "Sabesp Saneamento",
+  "endereco": {
+    "logradouro": "Alameda Santos",
+    "numero": "1280",
+    "complemento": "Apto 71",
+    "bairro": "Cerqueira César",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "01418-100"
+  },
+  "condicoes_captura": {
+    "angulo_graus": 2.93,
+    "sombra_intensidade": 0.26,
+    "direcao_luz": "dir_esq",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1828x1448"
+  }
+}

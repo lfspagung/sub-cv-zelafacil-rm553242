@@ -1,0 +1,22 @@
+{
+  "id": "test_claro_05",
+  "arquivo": "test_claro_05.jpg",
+  "empresa": "Claro Telecomunicações",
+  "endereco": {
+    "logradouro": "Avenida Doutor Moraes Salles",
+    "numero": "810",
+    "complemento": "",
+    "bairro": "Centro",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "cep": "13010-001"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -7.58,
+    "sombra_intensidade": 0.39,
+    "direcao_luz": "topo_base",
+    "blur_leve": true,
+    "modo_dificil": true,
+    "resolucao": "1682x1324"
+  }
+}

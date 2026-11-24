@@ -1,0 +1,22 @@
+{
+  "id": "dev_claro_03",
+  "arquivo": "dev_claro_03.jpg",
+  "empresa": "Claro Telecomunicações",
+  "endereco": {
+    "logradouro": "Rua Quinze de Novembro",
+    "numero": "410",
+    "complemento": "",
+    "bairro": "Centro",
+    "cidade": "Santos",
+    "uf": "SP",
+    "cep": "11010-150"
+  },
+  "condicoes_captura": {
+    "angulo_graus": 4.22,
+    "sombra_intensidade": 0.16,
+    "direcao_luz": "esq_dir",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1862x1422"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "dev_enel_02",
+  "arquivo": "dev_enel_02.jpg",
+  "empresa": "Enel Distribuição",
+  "endereco": {
+    "logradouro": "Avenida Antônio Marques Figueira",
+    "numero": "485",
+    "complemento": "Apto 34",
+    "bairro": "Vila Figueira",
+    "cidade": "Suzano",
+    "uf": "SP",
+    "cep": "08676-000"
+  },
+  "condicoes_captura": {
+    "angulo_graus": 0.08,
+    "sombra_intensidade": 0.34,
+    "direcao_luz": "topo_base",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1642x1346"
+  }
+}

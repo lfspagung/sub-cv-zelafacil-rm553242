@@ -1,0 +1,22 @@
+{
+  "id": "dev_claro_01",
+  "arquivo": "dev_claro_01.jpg",
+  "empresa": "Claro Telecomunicações",
+  "endereco": {
+    "logradouro": "Rua Vergueiro",
+    "numero": "2490",
+    "complemento": "Apto 85",
+    "bairro": "Vila Mariana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "04102-000"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -5.71,
+    "sombra_intensidade": 0.18,
+    "direcao_luz": "diagonal",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1854x1252"
+  }
+}

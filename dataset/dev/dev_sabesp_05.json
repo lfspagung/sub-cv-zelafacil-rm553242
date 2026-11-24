@@ -1,0 +1,22 @@
+{
+  "id": "dev_sabesp_05",
+  "arquivo": "dev_sabesp_05.jpg",
+  "empresa": "Sabesp Saneamento",
+  "endereco": {
+    "logradouro": "Rua Barão de Jaceguai",
+    "numero": "750",
+    "complemento": "",
+    "bairro": "Centro",
+    "cidade": "Mogi das Cruzes",
+    "uf": "SP",
+    "cep": "08710-160"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -9.48,
+    "sombra_intensidade": 0.43,
+    "direcao_luz": "topo_base",
+    "blur_leve": false,
+    "modo_dificil": true,
+    "resolucao": "1740x1434"
+  }
+}

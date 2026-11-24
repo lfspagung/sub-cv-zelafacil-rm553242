@@ -1,0 +1,22 @@
+{
+  "id": "dev_enel_04",
+  "arquivo": "dev_enel_04.jpg",
+  "empresa": "Enel Distribuição",
+  "endereco": {
+    "logradouro": "Avenida Brasil",
+    "numero": "890",
+    "complemento": "Bloco B",
+    "bairro": "Vila Nova",
+    "cidade": "Poá",
+    "uf": "SP",
+    "cep": "08557-100"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -1.14,
+    "sombra_intensidade": 0.23,
+    "direcao_luz": "topo_base",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1706x1254"
+  }
+}

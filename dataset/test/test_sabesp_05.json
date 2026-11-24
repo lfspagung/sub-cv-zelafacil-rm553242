@@ -1,0 +1,22 @@
+{
+  "id": "test_sabesp_05",
+  "arquivo": "test_sabesp_05.jpg",
+  "empresa": "Sabesp Saneamento",
+  "endereco": {
+    "logradouro": "Rua Padre João",
+    "numero": "290",
+    "complemento": "",
+    "bairro": "Penha",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "03637-000"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -6.45,
+    "sombra_intensidade": 0.53,
+    "direcao_luz": "diagonal",
+    "blur_leve": false,
+    "modo_dificil": true,
+    "resolucao": "1708x1396"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "test_sabesp_01",
+  "arquivo": "test_sabesp_01.jpg",
+  "empresa": "Sabesp Saneamento",
+  "endereco": {
+    "logradouro": "Rua Coronel Oliveira Lima",
+    "numero": "478",
+    "complemento": "Apto 15",
+    "bairro": "Centro",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "cep": "09010-000"
+  },
+  "condicoes_captura": {
+    "angulo_graus": -3.23,
+    "sombra_intensidade": 0.28,
+    "direcao_luz": "diagonal",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1798x1238"
+  }
+}

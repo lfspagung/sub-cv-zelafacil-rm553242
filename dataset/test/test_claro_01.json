@@ -1,0 +1,22 @@
+{
+  "id": "test_claro_01",
+  "arquivo": "test_claro_01.jpg",
+  "empresa": "Claro Telecomunicações",
+  "endereco": {
+    "logradouro": "Avenida Brigadeiro Luís Antônio",
+    "numero": "2750",
+    "complemento": "Apto 92",
+    "bairro": "Jardim Paulista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "01402-000"
+  },
+  "condicoes_captura": {
+    "angulo_graus": 2.6,
+    "sombra_intensidade": 0.17,
+    "direcao_luz": "diagonal",
+    "blur_leve": false,
+    "modo_dificil": false,
+    "resolucao": "1686x1432"
+  }
+}
