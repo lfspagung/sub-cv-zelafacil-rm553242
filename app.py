@@ -179,13 +179,13 @@ with aba_demo:
             if info["duvidoso"]:
                 motivos_txt = " · ".join(info["motivos"])
                 st.markdown(
-                    f"**{rotulos[campo_nome]}** "
+                    f"<strong>{rotulos[campo_nome]}</strong> "
                     f"<span class='doubt-badge'>⚠ Duvidoso ({info['confianca_ocr']:.0f}%) — {motivos_txt}</span>",
                     unsafe_allow_html=True,
                 )
             else:
                 st.markdown(
-                    f"**{rotulos[campo_nome]}** "
+                    f"<strong>{rotulos[campo_nome]}</strong> "
                     f"<span class='ok-badge'>✓ Confiável ({info['confianca_ocr']:.0f}%)</span>",
                     unsafe_allow_html=True,
                 )

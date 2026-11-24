@@ -387,7 +387,7 @@ def extrair_campos_endereco(texto_ocr: str, empresa: str) -> Tuple[Dict[str, str
     campos = {c: "" for c in TODOS_CAMPOS}
 
     m_end = re.search(
-        r"(?:ENDERE[CÇ]O(?:\s+DO\s+(?:TITULAR|IM[OÓ]VEL|CLIENTE))?|LOGRADOURO|LOCAL\s+DE\s+FORNECIMENTO)[:\s\-]*([^\n]+)",
+        r"(?m)^(?:ENDERE[CÇ]O(?:\s+DO\s+(?:TITULAR|IM[OÓ]VEL|CLIENTE))?|LOGRADOURO|LOCAL\s+DE\s+FORNECIMENTO)\s*[:;]\s*([^\n]+)",
         bloco,
         re.IGNORECASE,
     )

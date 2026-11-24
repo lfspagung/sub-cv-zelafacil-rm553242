@@ -8,13 +8,13 @@
     "confianca_media_ocr_geral": 87.2,
     "identificacao_empresa_correta": 15,
     "identificacao_empresa_pct": 100.0,
-    "endereco_completo_correto": 5,
-    "endereco_completo_pct": 33.33,
-    "acerto_medio_campos_obrigatorios_pct": 77.78,
+    "endereco_completo_correto": 15,
+    "endereco_completo_pct": 100.0,
+    "acerto_medio_campos_obrigatorios_pct": 100.0,
     "acerto_por_campo_pct": {
-      "logradouro": 33.33,
-      "numero": 33.33,
-      "complemento": 60.0,
+      "logradouro": 100.0,
+      "numero": 100.0,
+      "complemento": 100.0,
       "bairro": 100.0,
       "cidade": 100.0,
       "uf": 100.0,
@@ -24,9 +24,9 @@
       "Enel Distribuição": {
         "total_imagens": 5,
         "identificacao_empresa_pct": 100.0,
-        "acerto_campos_obrigatorios_pct": 66.67,
-        "endereco_completo_correto": 0,
-        "endereco_completo_pct": 0.0
+        "acerto_campos_obrigatorios_pct": 100.0,
+        "endereco_completo_correto": 5,
+        "endereco_completo_pct": 100.0
       },
       "Sabesp Saneamento": {
         "total_imagens": 5,
@@ -38,19 +38,19 @@
       "Claro Telecomunicações": {
         "total_imagens": 5,
         "identificacao_empresa_pct": 100.0,
-        "acerto_campos_obrigatorios_pct": 66.67,
-        "endereco_completo_correto": 0,
-        "endereco_completo_pct": 0.0
+        "acerto_campos_obrigatorios_pct": 100.0,
+        "endereco_completo_correto": 5,
+        "endereco_completo_pct": 100.0
       }
     },
     "avaliacao_confianca": {
       "total_campos_obrigatorios_avaliados": 90,
-      "total_erros": 20,
-      "erros_sinalizados": 20,
+      "total_erros": 0,
+      "erros_sinalizados": 0,
       "erros_sem_aviso": 0,
       "taxa_deteccao_erros_pct": 100.0,
-      "acertos_sinalizados_falso_alarme": 20,
-      "acertos_sem_aviso": 50
+      "acertos_sinalizados_falso_alarme": 25,
+      "acertos_sem_aviso": 65
     },
     "detalhes_por_imagem": [
       {
@@ -61,7 +61,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": true,
         "confianca_media_ocr": 86.76,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": 1.31,
           "sombra_intensidade": 0.28,
@@ -73,30 +73,26 @@
         "campos": {
           "logradouro": {
             "gabarito": "Rua Benjamin Constant",
-            "extraido": "DA UNIDADE CONSUMIDORA",
-            "correto": false,
-            "duvidoso": true,
+            "extraido": "Rua Benjamin Constant",
+            "correto": true,
+            "duvidoso": false,
             "confianca_ocr": 90.9,
-            "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
-            ]
+            "motivos_duvida": []
           },
           "numero": {
             "gabarito": "845",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "845",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 92.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "Apto 21",
-            "extraido": "",
-            "correto": false,
+            "extraido": "Apto 21",
+            "correto": true,
             "duvidoso": false,
-            "confianca_ocr": 86.8,
+            "confianca_ocr": 94.7,
             "motivos_duvida": []
           },
           "bairro": {
@@ -143,7 +139,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": true,
         "confianca_media_ocr": 87.76,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": 3.6,
           "sombra_intensidade": 0.29,
@@ -155,23 +151,21 @@
         "campos": {
           "logradouro": {
             "gabarito": "Avenida Armando Sales de Oliveira",
-            "extraido": "DA UNIDADE CONSUMIDORA",
-            "correto": false,
+            "extraido": "Avenida Armando Sales de Oliveira",
+            "correto": true,
             "duvidoso": true,
-            "confianca_ocr": 86.5,
+            "confianca_ocr": 81.8,
             "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
+              "Baixa confiança do OCR (81.8% < 82%)"
             ]
           },
           "numero": {
             "gabarito": "1670",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "1670",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "",
@@ -229,7 +223,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": true,
         "confianca_media_ocr": 88.22,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": -2.86,
           "sombra_intensidade": 0.3,
@@ -241,30 +235,26 @@
         "campos": {
           "logradouro": {
             "gabarito": "Rua José Bonifácio",
-            "extraido": "DA UNIDADE CONSUMIDORA",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 93.4,
-            "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
-            ]
+            "extraido": "Rua José Bonifácio",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 89.9,
+            "motivos_duvida": []
           },
           "numero": {
             "gabarito": "512",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "512",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 93.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "Casa 3",
-            "extraido": "",
-            "correto": false,
+            "extraido": "Casa 3",
+            "correto": true,
             "duvidoso": false,
-            "confianca_ocr": 88.2,
+            "confianca_ocr": 93.2,
             "motivos_duvida": []
           },
           "bairro": {
@@ -311,7 +301,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": true,
         "confianca_media_ocr": 88.83,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": 3.73,
           "sombra_intensidade": 0.19,
@@ -323,30 +313,26 @@
         "campos": {
           "logradouro": {
             "gabarito": "Avenida Vital Brasil",
-            "extraido": "DA UNIDADE CONSUMIDORA",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 95.2,
-            "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
-            ]
+            "extraido": "Avenida Vital Brasil",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.8,
+            "motivos_duvida": []
           },
           "numero": {
             "gabarito": "930",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "930",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 93.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "Apto 64",
-            "extraido": "",
-            "correto": false,
+            "extraido": "Apto 64",
+            "correto": true,
             "duvidoso": false,
-            "confianca_ocr": 88.8,
+            "confianca_ocr": 95.0,
             "motivos_duvida": []
           },
           "bairro": {
@@ -393,7 +379,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": true,
         "confianca_media_ocr": 82.36,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": 6.39,
           "sombra_intensidade": 0.4,
@@ -405,23 +391,19 @@
         "campos": {
           "logradouro": {
             "gabarito": "Rua Coronel Cardoso de Siqueira",
-            "extraido": "DA UNIDADE CONSUMIDORA",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 94.4,
-            "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
-            ]
+            "extraido": "Rua Coronel Cardoso de Siqueira",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 90.8,
+            "motivos_duvida": []
           },
           "numero": {
             "gabarito": "1185",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "1185",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 85.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "",
@@ -865,7 +847,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": true,
         "confianca_media_ocr": 88.88,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": 2.6,
           "sombra_intensidade": 0.17,
@@ -877,31 +859,31 @@
         "campos": {
           "logradouro": {
             "gabarito": "Avenida Brigadeiro Luís Antônio",
-            "extraido": "DE INSTALACAO / DADOS DO ASSINANTE",
-            "correto": false,
+            "extraido": "Avenida Brigadeiro Luís Antônio",
+            "correto": true,
             "duvidoso": true,
-            "confianca_ocr": 84.0,
+            "confianca_ocr": 78.3,
             "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
+              "Baixa confiança do OCR (78.3% < 82%)"
             ]
           },
           "numero": {
             "gabarito": "2750",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "2750",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "Apto 92",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": false,
-            "confianca_ocr": 88.9,
-            "motivos_duvida": []
+            "extraido": "Apto 92",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 78.3,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (78.3% < 82%)"
+            ]
           },
           "bairro": {
             "gabarito": "Jardim Paulista",
@@ -947,7 +929,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": true,
         "confianca_media_ocr": 89.65,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": -5.33,
           "sombra_intensidade": 0.21,
@@ -959,30 +941,26 @@
         "campos": {
           "logradouro": {
             "gabarito": "Rua Haddock Lobo",
-            "extraido": "DE INSTALACAO / DADOS DO ASSINANTE",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 92.9,
-            "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
-            ]
+            "extraido": "Rua Haddock Lobo",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.5,
+            "motivos_duvida": []
           },
           "numero": {
             "gabarito": "595",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "595",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "Conj 41",
-            "extraido": "",
-            "correto": false,
+            "extraido": "Conj 41",
+            "correto": true,
             "duvidoso": false,
-            "confianca_ocr": 89.7,
+            "confianca_ocr": 95.0,
             "motivos_duvida": []
           },
           "bairro": {
@@ -1029,7 +1007,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": true,
         "confianca_media_ocr": 91.84,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": -1.99,
           "sombra_intensidade": 0.23,
@@ -1041,23 +1019,19 @@
         "campos": {
           "logradouro": {
             "gabarito": "Avenida Ana Costa",
-            "extraido": "DE INSTALACAO / DADOS DO ASSINANTE",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 94.9,
-            "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
-            ]
+            "extraido": "Avenida Ana Costa",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 94.7,
+            "motivos_duvida": []
           },
           "numero": {
             "gabarito": "460",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "460",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "",
@@ -1111,7 +1085,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": true,
         "confianca_media_ocr": 85.26,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": -2.31,
           "sombra_intensidade": 0.33,
@@ -1123,31 +1097,31 @@
         "campos": {
           "logradouro": {
             "gabarito": "Rua Marechal Deodoro",
-            "extraido": "DE INSTALACAO / DADOS DO ASSINANTE",
-            "correto": false,
+            "extraido": "Rua Marechal Deodoro",
+            "correto": true,
             "duvidoso": true,
-            "confianca_ocr": 82.9,
+            "confianca_ocr": 78.6,
             "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
+              "Baixa confiança do OCR (78.6% < 82%)"
             ]
           },
           "numero": {
             "gabarito": "1340",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "1340",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "Apto 53",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": false,
-            "confianca_ocr": 85.3,
-            "motivos_duvida": []
+            "extraido": "Apto 53",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 80.3,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (80.3% < 82%)"
+            ]
           },
           "bairro": {
             "gabarito": "Centro",
@@ -1195,7 +1169,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": true,
         "confianca_media_ocr": 81.98,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": -7.58,
           "sombra_intensidade": 0.39,
@@ -1207,23 +1181,22 @@
         "campos": {
           "logradouro": {
             "gabarito": "Avenida Doutor Moraes Salles",
-            "extraido": "DE INSTALACAO / DADOS DO ASSINANTE",
-            "correto": false,
+            "extraido": "Avenida Doutor Moraes Salles",
+            "correto": true,
             "duvidoso": true,
-            "confianca_ocr": 71.4,
+            "confianca_ocr": 61.0,
             "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum",
-              "Baixa confiança do OCR (71.4% < 82%)"
+              "Baixa confiança do OCR (61.0% < 82%)"
             ]
           },
           "numero": {
             "gabarito": "810",
-            "extraido": "",
-            "correto": false,
+            "extraido": "810",
+            "correto": true,
             "duvidoso": true,
-            "confianca_ocr": 0.0,
+            "confianca_ocr": 63.0,
             "motivos_duvida": [
-              "Campo obrigatório ausente"
+              "Baixa confiança do OCR (63.0% < 82%)"
             ]
           },
           "complemento": {
@@ -1284,13 +1257,13 @@
     "confianca_media_ocr_geral": 88.71,
     "identificacao_empresa_correta": 14,
     "identificacao_empresa_pct": 93.33,
-    "endereco_completo_correto": 5,
-    "endereco_completo_pct": 33.33,
-    "acerto_medio_campos_obrigatorios_pct": 78.89,
+    "endereco_completo_correto": 14,
+    "endereco_completo_pct": 93.33,
+    "acerto_medio_campos_obrigatorios_pct": 98.89,
     "acerto_por_campo_pct": {
-      "logradouro": 40.0,
-      "numero": 40.0,
-      "complemento": 66.67,
+      "logradouro": 100.0,
+      "numero": 100.0,
+      "complemento": 100.0,
       "bairro": 100.0,
       "cidade": 100.0,
       "uf": 93.33,
@@ -1300,33 +1273,33 @@
       "Enel Distribuição": {
         "total_imagens": 5,
         "identificacao_empresa_pct": 100.0,
-        "acerto_campos_obrigatorios_pct": 66.67,
-        "endereco_completo_correto": 0,
-        "endereco_completo_pct": 0.0
+        "acerto_campos_obrigatorios_pct": 100.0,
+        "endereco_completo_correto": 5,
+        "endereco_completo_pct": 100.0
       },
       "Sabesp Saneamento": {
         "total_imagens": 5,
         "identificacao_empresa_pct": 100.0,
-        "acerto_campos_obrigatorios_pct": 86.67,
-        "endereco_completo_correto": 3,
-        "endereco_completo_pct": 60.0
+        "acerto_campos_obrigatorios_pct": 100.0,
+        "endereco_completo_correto": 5,
+        "endereco_completo_pct": 100.0
       },
       "Claro Telecomunicações": {
         "total_imagens": 5,
         "identificacao_empresa_pct": 80.0,
-        "acerto_campos_obrigatorios_pct": 83.33,
-        "endereco_completo_correto": 2,
-        "endereco_completo_pct": 40.0
+        "acerto_campos_obrigatorios_pct": 96.67,
+        "endereco_completo_correto": 4,
+        "endereco_completo_pct": 80.0
       }
     },
     "avaliacao_confianca": {
       "total_campos_obrigatorios_avaliados": 90,
-      "total_erros": 19,
-      "erros_sinalizados": 19,
+      "total_erros": 1,
+      "erros_sinalizados": 1,
       "erros_sem_aviso": 0,
       "taxa_deteccao_erros_pct": 100.0,
-      "acertos_sinalizados_falso_alarme": 29,
-      "acertos_sem_aviso": 42
+      "acertos_sinalizados_falso_alarme": 32,
+      "acertos_sem_aviso": 57
     },
     "detalhes_por_imagem": [
       {
@@ -1337,7 +1310,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": false,
         "confianca_media_ocr": 91.77,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": 1.31,
           "sombra_intensidade": 0.28,
@@ -1349,31 +1322,31 @@
         "campos": {
           "logradouro": {
             "gabarito": "Rua Benjamin Constant",
-            "extraido": "DA UNIDADE CONSUMIDORA",
-            "correto": false,
+            "extraido": "Rua Benjamin Constant",
+            "correto": true,
             "duvidoso": true,
-            "confianca_ocr": 86.3,
+            "confianca_ocr": 73.4,
             "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
+              "Baixa confiança do OCR (73.4% < 82%)"
             ]
           },
           "numero": {
             "gabarito": "845",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "845",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 93.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "Apto 21",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": false,
-            "confianca_ocr": 91.8,
-            "motivos_duvida": []
+            "extraido": "Apto 21",
+            "correto": true,
+            "duvidoso": true,
+            "confianca_ocr": 81.0,
+            "motivos_duvida": [
+              "Baixa confiança do OCR (81.0% < 82%)"
+            ]
           },
           "bairro": {
             "gabarito": "Centro",
@@ -1423,7 +1396,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": false,
         "confianca_media_ocr": 91.39,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": 3.6,
           "sombra_intensidade": 0.29,
@@ -1435,23 +1408,19 @@
         "campos": {
           "logradouro": {
             "gabarito": "Avenida Armando Sales de Oliveira",
-            "extraido": "DA UNIDADE CONSUMIDORA",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 91.6,
-            "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
-            ]
+            "extraido": "Avenida Armando Sales de Oliveira",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 88.6,
+            "motivos_duvida": []
           },
           "numero": {
             "gabarito": "1670",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "1670",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "",
@@ -1507,7 +1476,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": false,
         "confianca_media_ocr": 91.97,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": -2.86,
           "sombra_intensidade": 0.3,
@@ -1519,30 +1488,26 @@
         "campos": {
           "logradouro": {
             "gabarito": "Rua José Bonifácio",
-            "extraido": "DA UNIDADE CONSUMIDORA",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 88.7,
-            "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
-            ]
+            "extraido": "Rua José Bonifácio",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 86.9,
+            "motivos_duvida": []
           },
           "numero": {
             "gabarito": "512",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "512",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 93.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "Casa 3",
-            "extraido": "",
-            "correto": false,
+            "extraido": "Casa 3",
+            "correto": true,
             "duvidoso": false,
-            "confianca_ocr": 92.0,
+            "confianca_ocr": 94.0,
             "motivos_duvida": []
           },
           "bairro": {
@@ -1589,7 +1554,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": false,
         "confianca_media_ocr": 93.35,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": 3.73,
           "sombra_intensidade": 0.19,
@@ -1601,30 +1566,26 @@
         "campos": {
           "logradouro": {
             "gabarito": "Avenida Vital Brasil",
-            "extraido": "DA UNIDADE CONSUMIDORA",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 95.7,
-            "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
-            ]
+            "extraido": "Avenida Vital Brasil",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.6,
+            "motivos_duvida": []
           },
           "numero": {
             "gabarito": "930",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "930",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 89.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "Apto 64",
-            "extraido": "",
-            "correto": false,
+            "extraido": "Apto 64",
+            "correto": true,
             "duvidoso": false,
-            "confianca_ocr": 93.3,
+            "confianca_ocr": 95.8,
             "motivos_duvida": []
           },
           "bairro": {
@@ -1671,7 +1632,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": false,
         "confianca_media_ocr": 87.04,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": 6.39,
           "sombra_intensidade": 0.4,
@@ -1683,23 +1644,21 @@
         "campos": {
           "logradouro": {
             "gabarito": "Rua Coronel Cardoso de Siqueira",
-            "extraido": "DA UNIDADE CONSUMIDORA",
-            "correto": false,
+            "extraido": "Rua Coronel Cardoso de Siqueira",
+            "correto": true,
             "duvidoso": true,
-            "confianca_ocr": 82.8,
+            "confianca_ocr": 75.6,
             "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
+              "Baixa confiança do OCR (75.6% < 82%)"
             ]
           },
           "numero": {
             "gabarito": "1185",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "1185",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "",
@@ -1837,7 +1796,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": false,
         "confianca_media_ocr": 91.22,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": 4.26,
           "sombra_intensidade": 0.21,
@@ -1849,23 +1808,19 @@
         "campos": {
           "logradouro": {
             "gabarito": "Avenida Goiás",
-            "extraido": "/ DADOS DO TITULAR",
-            "correto": false,
-            "duvidoso": true,
+            "extraido": "Avenida Goiás",
+            "correto": true,
+            "duvidoso": false,
             "confianca_ocr": 96.0,
-            "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
-            ]
+            "motivos_duvida": []
           },
           "numero": {
             "gabarito": "1950",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "1950",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "",
@@ -1917,7 +1872,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": false,
         "confianca_media_ocr": 82.02,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": -6.25,
           "sombra_intensidade": 0.18,
@@ -1929,24 +1884,19 @@
         "campos": {
           "logradouro": {
             "gabarito": "Rua Domingos de Morais",
-            "extraido": "DO jMOVEL / DADOS DO TITULAR",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 81.1,
-            "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum",
-              "Baixa confiança do OCR (81.1% < 82%)"
-            ]
+            "extraido": "Rua Domingos de Morais",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 91.7,
+            "motivos_duvida": []
           },
           "numero": {
             "gabarito": "1420",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "1420",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "Bloco A",
@@ -2246,7 +2196,7 @@
         "empresa_correta": true,
         "perspectiva_corrigida": false,
         "confianca_media_ocr": 88.26,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": -5.33,
           "sombra_intensidade": 0.21,
@@ -2258,31 +2208,28 @@
         "campos": {
           "logradouro": {
             "gabarito": "Rua Haddock Lobo",
-            "extraido": "DE INSTALACAO | DADOS DO ASSINANTE",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 95.4,
-            "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum",
-              "Possível ruído de caractere no OCR"
-            ]
+            "extraido": "Rua Haddock Lobo",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 93.7,
+            "motivos_duvida": []
           },
           "numero": {
             "gabarito": "595",
-            "extraido": "",
-            "correto": false,
+            "extraido": "595",
+            "correto": true,
             "duvidoso": true,
-            "confianca_ocr": 0.0,
+            "confianca_ocr": 71.0,
             "motivos_duvida": [
-              "Campo obrigatório ausente"
+              "Baixa confiança do OCR (71.0% < 82%)"
             ]
           },
           "complemento": {
             "gabarito": "Conj 41",
-            "extraido": "",
-            "correto": false,
+            "extraido": "Conj 41",
+            "correto": true,
             "duvidoso": false,
-            "confianca_ocr": 88.3,
+            "confianca_ocr": 95.0,
             "motivos_duvida": []
           },
           "bairro": {
@@ -2416,7 +2363,7 @@
         "empresa_correta": false,
         "perspectiva_corrigida": false,
         "confianca_media_ocr": 93.55,
-        "endereco_completo_correto": false,
+        "endereco_completo_correto": true,
         "condicoes_captura": {
           "angulo_graus": -2.31,
           "sombra_intensidade": 0.33,
@@ -2428,30 +2375,26 @@
         "campos": {
           "logradouro": {
             "gabarito": "Rua Marechal Deodoro",
-            "extraido": "DE INSTALACAO / DADOS DO ASSINANTE",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 95.2,
-            "motivos_duvida": [
-              "Tipo de logradouro ausente ou incomum"
-            ]
+            "extraido": "Rua Marechal Deodoro",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 95.8,
+            "motivos_duvida": []
           },
           "numero": {
             "gabarito": "1340",
-            "extraido": "",
-            "correto": false,
-            "duvidoso": true,
-            "confianca_ocr": 0.0,
-            "motivos_duvida": [
-              "Campo obrigatório ausente"
-            ]
+            "extraido": "1340",
+            "correto": true,
+            "duvidoso": false,
+            "confianca_ocr": 96.0,
+            "motivos_duvida": []
           },
           "complemento": {
             "gabarito": "Apto 53",
-            "extraido": "",
-            "correto": false,
+            "extraido": "Apto 53",
+            "correto": true,
             "duvidoso": false,
-            "confianca_ocr": 93.5,
+            "confianca_ocr": 96.0,
             "motivos_duvida": []
           },
           "bairro": {
