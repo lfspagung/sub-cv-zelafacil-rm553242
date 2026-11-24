@@ -3,6 +3,7 @@
 - **Instituição:** FIAP — Engenharia de Software (4º Ano | Turma 4ESPR)
 - **Disciplina:** Applied Computer Vision
 - **Integrante:** Lucas de Freitas Pagung — **RM 553242**
+- **Aplicação publicada:** https://sub-cv-zelafacil-rm553242-4s4tczifgpb95dwxmhvgkn.streamlit.app/
 
 ## Visão Geral
 Sistema completo de Visão Computacional e OCR para extração automática do endereço do titular a partir de fotografias de comprovantes de residência de **3 empresas reais** (**Enel Distribuição**, **Sabesp Saneamento** e **Claro Telecomunicações**), utilizando **documentos 100% sintéticos** em conformidade com a LGPD (carimbados com `"DOCUMENTO SINTÉTICO"` e sem nenhum dado pessoal real).
